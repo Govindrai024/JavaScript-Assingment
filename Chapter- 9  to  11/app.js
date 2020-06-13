@@ -122,7 +122,7 @@ document.write("c. There are two alert box first is" + "<br>" + "condition 2 is 
  var materialCost = 20000;
 var laborCost = 2000;
 var totalCost = materialCost + laborCost;
-if (totalCost === laborCost + materialCost){
+// if (totalCost === laborCost + materialCost){
 // alert("The cost equals");
 // }
 
@@ -131,13 +131,176 @@ document.write("d. alert is running"+"<br>");
 
 //e
 
- if (true){
-    alert("True");
-    }
-    if (false){
-    alert("False");
-    }
+//  if (true){
+//     alert("True");
+//     }
+//     if (false){
+//     alert("False");
+//     }
 
 
     document.write("e. alert is running"+"<br>"+"true"+"<br>");
 document.write("<hr>");
+
+
+document.write("<hr>");
+
+//===============
+document.write("6. Write a program to take input the marks obtained in three subjects & total marks. Compute & show the resulting percentage on your page. Take percentage & compute grade as per following table. " + "<br><br>");
+
+
+document.write("Mark Sheet"+"<br><br>");
+
+// var sub1 =+prompt( "Enter your first subject marks:");
+// var sub2 = +prompt("Enter your second subject marks: ");
+// var sub3 = +prompt("Enter your third subject marks: ");
+// var totalMarks = +prompt( "Enter you total marks:");
+// var obMarks = (sub1+sub2+sub3);
+// percentage = ((obMarks * 100)/ totalMarks);
+// var grade;
+// var remarks;
+
+// conditions
+// if(percentage >= 80){
+//      grade = 'A-one';
+//      remarks = 'excellent';
+// }else if(percentage >= 70){ 
+
+//      grade = 'A';
+//      remarks = 'Good';
+// }else if(percentage >= 60){ 
+
+//     grade = 'B';
+//     remarks = 'you need to improve';
+// }
+// else if (percentage < 60){ 
+
+//     grade = 'Fail';
+//     remarks = 'Sorry';
+// }
+
+
+// document.write("Total Marks: "+totalMarks+"<br>");
+// document.write("Obtained Marks: "+obMarks+"<br>");
+// document.write("Percentage:  "+percentage+"%"+"<br>");
+// document.write("Grade: "+grade+"<br>");
+// document.write("Remarks: "+remarks+"<br>");
+
+
+document.write("<hr>");
+document.write("<hr>");
+
+//===============
+document.write("7. Guess game Store a secret number (ranging from 1 to 10) in a variable. Prompt user to guess the secret number. " + "<br><br>");
+
+
+document.write("Guess game"+"<br><br>");
+
+document.write("a. If user guesses the same number, show “Bingo! Correct answer”."+ "<br>");
+document.write("b. If the guessed number +1 is the secret number, show “Close enough to the correct answer”."+ "<br><br><br>");
+
+// var guessNum = 10;
+// var user = prompt("Enter guess number ");
+
+// if (user == guessNum){
+//     document.write("Bingo! Correct answer");
+// }
+// else if(user < guessNum || user > guessNum){
+//     document.write("Close enough to the correct answe");
+// }
+
+
+document.write("<hr>");
+
+document.write("<hr>");
+
+//===============
+document.write("8. Write a program to check whether the given number is divisible by 3. Show the message to the user if the number is divisible by 3. " + "<br><br>");
+
+// var user = prompt("Enter your value");
+// var userValue =  user % 3 == 0;
+// if (userValue){
+//     document.write("the number is divisible by 3"+"<br><br>");
+// }else {
+//     document.write("Sorry pick another value"+"<br><br>");
+// }
+
+
+
+
+
+document.write("<hr>");
+
+document.write("<hr>");
+
+//===============
+document.write("9. Write a program that checks whether the given input is an even number or an odd number. " + "<br><br>");
+
+// var user = prompt("Enter number");
+
+// if(user %2 == 0){
+//     document.write("Even number"+"<br>");
+// }else{
+//     document.write("Odd number"+"<br><br>");
+// }
+
+
+document.write("<hr>");
+
+document.write("<hr>");
+
+//===============
+document.write("10. Write a program that takes temperature as input and shows a message based on following criteria " + "<br><br><br>");
+
+
+// a. T > 40 then “It is too hot outside.”
+// b. T > 30 then “The Weather today is Normal.”
+// c. T > 20 then “Today’s Weather is cool.”
+// d. T > 10 then “OMG! Today’s weather is so Cool.”
+
+// var temp1 = prompt("Enter temperature: ");
+
+// if(temp1 > 40){
+//     document.write("It is too hot outside.");
+// }else if (temp1 > 30){
+//     document.write("The Weather today is Normal.");
+// }else if (temp1 > 20){
+//     document.write("Today’s Weather is cool.");
+// }else if (temp1 > 10){
+//     document.write("OMG! Today’s weather is so Cool");
+// }
+
+
+
+
+
+
+
+document.write("<hr>");
+
+//===============
+document.write("11. Write a program to create a calculator for +,-,*, / & % using if statements. Take the following input: " + "<br><br><br>");
+
+
+var num1 = +prompt("Enter first number: ");
+var op = prompt("Enter operator number: ");
+var num2 = +prompt("Enter second number: ");
+
+
+if (op == '+'){
+ document.write("Addition:  " ,num1 + num2) ;
+}else if(op == '-'){
+    document.write("Substraction:  ",num1 - num2) ;
+}else if(op == '*'){
+    document.write("Multiplication:  ",num1 * num2) ;
+}else if(op == '/'){
+    document.write("Division:  ",num1 / num2) ;
+}else if(op == '/'){
+    document.write("Modulus:  ",num1 % num2) ;
+}
+
+
+
+
+
+
