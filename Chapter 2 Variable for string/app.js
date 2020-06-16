@@ -1,3 +1,6 @@
+
+//=============start chpt 2
+
 //  1. Declare a variable called username.
 
 var username;
@@ -11,7 +14,7 @@ var username;
 // c) Display the message in alert box.
 
 var titleMesaage = "Hello World";
-alert(titleMesaage);
+// alert(titleMesaage);
 
 
 //  4. Write a script to save student’s bio data in JS variables and show the data in alert boxes.
@@ -42,9 +45,12 @@ var certified = "Certified Mobile Application Development"
 
 var showAlert = "PIZZA";
 
-// for(var i = 0; i < 5 ; i++){
-//    alert(showAlert[i]);
-// }
+for(var i = 0; i < 5 ; i++){
+    for(var j = 0; j < i ; j++){
+        alert("PIZZA");
+    }
+    alert("<br>");
+}
 
 
 // 6. Declare a variable called email and assign to it a string that
@@ -73,3 +79,6 @@ document.write("Yah! I can write HTML content through JavaScript");
 var showImg = '           ▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬';
 // alert(showImg);
 
+
+
+//==end chapter 2
